@@ -15,3 +15,15 @@
 // }
 
 // console.log(calcAreaOfTriangle(20, 20));
+
+// function appendFrontend(string) {
+//     return string + 'Frontend'
+// }
+
+// console.log(appendFrontend('Apple'));
+
+function appendFrontend(number) {
+    return 4 + number
+}
+
+console.log(appendFrontend('1'));
