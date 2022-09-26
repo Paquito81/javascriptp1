@@ -22,8 +22,43 @@
 
 // console.log(appendFrontend('Apple'));
 
-function appendFrontend(number) {
-    return 4 + number
-}
+// function appendFrontend(number) {
+//     return 4 + (+number)
+// }
 
-console.log(appendFrontend('1'));
+// console.log(appendFrontend(1));
+
+//this code is to long to solve 
+
+// function sumGreaterThan100(num1, num2) {
+    //1. first method
+    // if (num1 + num2 > 100) {
+    //     return true;
+    // }
+    // else {
+    //     return false;
+    // }
+    //2. second method
+    // if (num1 + num2 > 100) {
+    //     return true;
+    // }
+    // return false;
+
+    //3. third method
+//     return num1 + num2 >= 100
+// }
+
+// console.log(sumGreaterThan100(50, 52));
+
+// function lessThanOrEqualToZero(num) {
+//     return num <= 0;
+// }
+
+// console.log(lessThanOrEqualToZero(-5));
+
+function oppositeBoolean(bool) {
+    return !bool;
+
+}
+console.log(oppositeBoolean(false));
+
