@@ -56,9 +56,17 @@
 
 // console.log(lessThanOrEqualToZero(-5));
 
-function oppositeBoolean(bool) {
-    return !bool;
+// function oppositeBoolean(bool) {
+//     return !bool;
 
+// }
+// console.log(oppositeBoolean(true));
+
+function falsyOrTruthy(elem1, elem2) {
+    if (/* falsy */) {
+        // return the element
+    }
+    else {
+        //return element 2
+    }
 }
-console.log(oppositeBoolean(false));
-
