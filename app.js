@@ -68,19 +68,51 @@
 //     console.log('tell user to log into account')
 // }
 
-let cash = 35
-let price = 40
-let difference = cash - price;
-let changed = price - cash;
+// let cash = 10
+// let price = 50
+// let difference = cash - price;
 
-if (cash > price) {
-console.log(`you paid extra - here's ${difference} dollars change`)
-}
-else if (cash === price) {
-    console.log("you paid the exact amount, have a nice day!")
+// if (cash > price) {
+// console.log(`you paid extra - here's ${difference} dollars change`)
+// }
+// else if (cash === price) {
+//     console.log("you paid the exact amount, have a nice day!")
+// }
+// else {
+//     console.log(`not enough money you  - you still owe ${difference * -1} dollars`)
+// }
+
+/**
+ * COMPARING OPERATORS
+ * > greater than
+ * < less than
+ * >= greater than or equal to
+ * <= less then or equal to
+ * 
+ * LOGICAL OPERATORS
+ * && checks if the left and right side of the comparison is true
+ * 
+ * true && true ---->true
+ * true && false ----> false
+ * false && true ----> false
+ * false && false ----> false
+ */
+
+// let cash = 50
+// let price = 40
+// let isStoreOpen = true
+
+// if (cash >= price && isStoreOpen === true) {
+//     console.log('print the reciept')
+// }
+
+let val = 'Hector'
+
+if (val) {
+    console.log(!!val)
 }
 else {
-    console.log(`not enough money you  - you still owe ${changed} dollars`)
+    console.log("!!val")
 }
 // console.log('Hello World');
 // function hoursIntoSeconds(hour) {
