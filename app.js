@@ -68,17 +68,19 @@
 //     console.log('tell user to log into account')
 // }
 
-let cash = 50
+let cash = 35
 let price = 40
+let difference = cash - price;
+let changed = price - cash;
 
 if (cash > price) {
-console.log("you paid extra - here's {x} dollars change")
+console.log(`you paid extra - here's ${difference} dollars change`)
 }
 else if (cash === price) {
     console.log("you paid the exact amount, have a nice day!")
 }
 else {
-    console.log("not enough money you  - you still owe x dollars")
+    console.log(`not enough money you  - you still owe ${changed} dollars`)
 }
 // console.log('Hello World');
 // function hoursIntoSeconds(hour) {
