@@ -106,14 +106,51 @@
 //     console.log('print the reciept')
 // }
 
-let val = 'Hector'
+// let val = 'Hector'
 
-if (val) {
-    console.log(!!val)
-}
-else {
-    console.log("!!val")
-}
+// if (val) {
+//     console.log(!!val)
+// }
+// else {
+//     console.log("!!val")
+// }
+
+/**TERNARY OPERATORS
+ * a shortcut for an if else condition
+ * isObese ? 'unhealthy' : 'healthy'
+ */
+
+// let subscribed = true
+// let loggedIn = true
+// let str = subscribed && loggedIn ? 'show the video' : 'hide the video'
+// console.log(str);
+
+
+// let cash = 50 
+// let price = 40
+// let isStoreOpen = false;
+
+// let str = cash >= price && isStoreOpen ? "give receipt" : "do not give receipt"
+// console.log(str)
+
+/** LOOPS
+ * */
+
+// let count = 1;
+// console.log(count);
+// count = count + 1
+// console.log(count)
+
+// let count = 1;
+
+// while (count <= 100) {
+
+//     console.log('this ran')
+//     count = count + 1;
+// }
+
+
+
 // console.log('Hello World');
 // function hoursIntoSeconds(hour) {
 //     return seconds = hour * 60 * 60; 
