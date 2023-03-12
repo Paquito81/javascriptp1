@@ -149,7 +149,87 @@
 //     count = count + 1;
 // }
 
+// for (let i = 1; i <=100; ++i) {
+//     console.log(i);
+// }
 
+
+/**Write a for-loop thst loops through 1 to 20
+ * If the number is divisible by 3, print "Frontend"
+ * If the number is divisible by 5, print "Simplified"
+ * If the number is divisible by 3 and 5, print "Frontend Simplified"
+ * If the number is *not* divisible by either 3 or 5, print the number
+ * 
+ * @example
+ * 1 --> 1 
+ * 2 --> 2 
+ * 3 --> "Frontend
+ * 4 --> 4
+ * 5 --> "Simplified"
+ * ...
+ * 15 -> "Frontend Simplified"
+ * ...
+ * 20 -> "Simplified"
+ */
+// Practice Alot
+//  for (let i = 0; i <= 20; ++i) {
+//      if (i % 3 === 0 && i % 5 === 0) {
+//          console.log(`${i} -> Frontend Simplified`)
+//      }
+//      else if (i % 3 === 0) {
+//          console.log(`${i} -> Frontend`)
+//      }
+//      else if (i % 5 ===0) {
+//          console.log(`${i} -> Simplified`)
+//      }
+//      else {
+//          console.log(`${i} -> ${i}`)
+//      }
+     
+//     }
+   
+    
+/**
+ * Print out every character from the string:
+ * Frontend Simplified
+ * 
+ * @example
+ * 
+ * 'F'
+ * 'r'
+ * 'o'
+ * ...
+ * 'e'
+ * 'd'
+ */
+
+// const str = "frontend Simplified"
+
+// for (let i = 0; i < str.length + 1; ++i) {
+//     console.log(str[i])
+// }
+
+/**
+ * FUNCTIONS
+ * 
+ * What is a function in JavaScript?
+ * 
+ * it is a block of code designed to perform a particular task
+ * 
+ */
+
+//DRY- Don't repeat yourself
+
+// console.log("welcome to FES, Hector ")
+// console.log("welcome to FES, Marco ")
+// console.log("welcome to FES, Mario ")
+
+//Function Definition
+function welcomePersonToFES() {
+    console.log("Welcome to FES, Hector")
+}
+//Call the function
+welcomePersonToFES();
 
 // console.log('Hello World');
 // function hoursIntoSeconds(hour) {
