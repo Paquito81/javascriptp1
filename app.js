@@ -225,12 +225,81 @@
 // console.log("welcome to FES, Mario ")
 
 //Function Definition
-function welcomePersonToFES() {
-    console.log("Welcome to FES, Hector")
-}
+// function welcomePersonToFES() {
+//     console.log("Welcome to FES, Hector")
+// }
+// 
 //Call the function
-welcomePersonToFES();
+// welcomePersonToFES();
 
+
+//HOW TO MAKE YOUR CODE REUSABLE
+
+// function welcomePersonToFES (name) {
+//     console.log(`Welcome to FES, ${name}`)
+// }
+
+// //Call the function
+// welcomePersonToFES('Hector');
+// welcomePersonToFES('Mitri');
+// welcomePersonToFES('Hector');
+
+//Function definition
+// function welcomePersonToFES(firstName, lastName) {
+//     console.log(`Welcome to FES, ${firstName} ${lastName}`)
+// }
+
+// //Call the function
+// welcomePersonToFES('Hector', 'Palacios')
+// welcomePersonToFES('John', 'Doe')
+// welcomePersonToFES('Hector', 'Palacios')
+
+// function fn() {
+//     return 5
+//     console.log('my function')
+// }
+
+// console.log(5);
+
+//                                                                                           
+
+
+
+/**
+ * Argument is when you are calling the function
+ * Parameter is when you are defining the function
+ */
+
+/** 
+* Create a function that converts Celcius to fahrenheit
+*
+* Celsius to Fahrenheit formula
+*
+* F = C x 1.8 + 32
+
+@example
+convertCelciusToFahrenheit(0) -> 32
+convertCelciusToFahrenheit(10) -> 50
+convertCelciusToFahrenheit(30) -> 86
+
+*/
+
+// function convertCelciusToFahrenheit(celsius) {
+//     return celsius * 1.8 + 32
+// }
+
+// console.log(convertCelciusToFahrenheit(0));
+// console.log(convertCelciusToFahrenheit(10));
+// console.log(convertCelciusToFahrenheit(30));
+
+// const convertCelciusToFahrenheit = (celsius) => {
+//     return celsius * 1.8 + 32
+
+// }
+
+// console.log(convertCelciusToFahrenheit(0))
+// console.log(convertCelciusToFahrenheit(10))
+// console.log(convertCelciusToFahrenheit(30))
 // console.log('Hello World');
 // function hoursIntoSeconds(hour) {
 //     return seconds = hour * 60 * 60; 
