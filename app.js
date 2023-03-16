@@ -300,6 +300,174 @@ convertCelciusToFahrenheit(30) -> 86
 // console.log(convertCelciusToFahrenheit(0))
 // console.log(convertCelciusToFahrenheit(10))
 // console.log(convertCelciusToFahrenheit(30))
+
+/** ARRAYS
+ * What are arrays?
+ * Data structure that can hold multiple data values in one variable
+ * 
+ */
+
+//imageing that you are shopping for clothes
+// let item1 = 20
+// let item2 = 30
+// let item3 = 40 
+// let item4 = 50
+// let item5 = 100
+
+// let arr =[20, 30, 40, 50, 100]
+// //First element of array
+// console.log(arr[0])
+
+// //Last element of array
+// console.log(arr[4])
+
+// let arr = [20, 30, 40, 50, 100]
+
+//First element of array
+// console.log(arr[0])
+// //Last element of array
+// console.log(arr[arr.length - 1])
+
+// //How to add element unto an array you use the push method
+// arr.push(200)
+
+// let arr = [20, 30, 40, 50, 100]
+//This the syntax of a callback function
+// let newArray = arr.filter(element => {
+//     console.log(element)
+//     //if the element is less than 50
+//     if (element < 50) {
+//         return true
+//     }
+// })
+
+// let newArr = arr.filter(element => {
+//     return element < 50
+// })
+
+// let newArr = arr.filter(element => element < 50)
+
+// console.log(newArr)
+
+/**
+ * Filter out all the 'FAIL" elements in an array
+ * 
+ * @example
+ * ['A+', 'A', 'FAIL'] => ['A+', 'A']
+ * ['FAIL', 'FAIL', 'B'] => ['B']
+ * ['FAIL'] =>[]
+ */
+
+// let grades = ['A+', 'A', 'FAIL']
+
+// let goodGrades = grades.filter((element) => {
+//     console.log(element)
+//     if (element !== 'FAIL') {
+//         return true
+//     }
+// })
+
+//console.log(goodGrades)
+
+// let grades = ['A+', 'A', 'FAIL']
+
+// let goodGrades = grades.filter(element => element !== 'FAIL')
+
+// console.log(goodGrades)
+
+// let grades = ['A+', 'A', 'FAIL']
+
+// for (let i = 0; i < grades.length; ++i) {
+//     console.log(grades[i]);
+// }
+
+/**
+ * Filter out all the 'FAIL' elements in an array
+ * without using the Array.filter method
+ * 
+ * @examples
+ * ['A+', 'A', 'FAIL'] => ['A+', 'A']
+ * ['FAIL','FAIL', 'B'] => ['B']
+ * ['FAIL'] => []
+ */
+
+// let grades = ['A+', 'A', 'FAIL']
+
+// //Create a new empty array called 'goodGrades'
+
+// let goodGrades = []
+
+// for (let i = 0; i < grades.length; ++i) {
+//     if (grades[i] !== 'FAIL') {
+//         goodGrades.push(grades[i])
+//     }
+//     //add the current element onto 'goodGrades'only if 
+//     //the current element is not equal to 'FAIL'
+// }
+
+// // conaole log 'goodGrades'
+// console.log(goodGrades);
+
+// let arr = [1, 4, 9, 16]
+
+// let newArray = arr.map ((element) => {
+//     console.log(element)
+//     return 1;
+// })
+
+// console.log(arr);
+
+//Next line of code gives me the exact same answer
+// let arr = [1, 4, 9, 16]
+
+// let newArray = arr.map (element => '1');
+
+// console.log(newArray)
+
+/**
+ * Turn each element in an array of dollars into cents
+ * 
+ * @examples
+ * [1, 5, 10, 3] => [100, 500, 1000, 300]
+ * [0, 10, 20,] => [0, 1000, 2000]
+ */
+
+// let dollars = [1, 5, 10,3];
+
+// let cents = dollars.map ((element) => {
+//     console.log(element)
+//     return element * 100
+// })
+
+// console.log(cents)
+
+
+// let dollars = [1, 5, 10,3];
+
+// let cents = dollars.map (element => element * 100)
+
+// console.log(cents)
+
+//try wihtout using the map method
+
+
+let dollars = [1, 5, 10, 3]
+
+//Create new 'cents' array
+let cents = [];
+
+//loop over every element in 'dollars'
+for (let i = 0; i < dollars.length; ++i) {
+
+    cents.push(dollars[i] * 100);
+    //multiply the element by 100
+    //add this element onto 'cents' array
+}
+
+//console log cents
+
+console.log(cents);
+
 // console.log('Hello World');
 // function hoursIntoSeconds(hour) {
 //     return seconds = hour * 60 * 60; 
