@@ -451,22 +451,144 @@ convertCelciusToFahrenheit(30) -> 86
 //try wihtout using the map method
 
 
-let dollars = [1, 5, 10, 3]
+// let dollars = [1, 5, 10, 3]
 
 //Create new 'cents' array
-let cents = [];
+// let cents = [];
 
-//loop over every element in 'dollars'
-for (let i = 0; i < dollars.length; ++i) {
+// //loop over every element in 'dollars'
+// for (let i = 0; i < dollars.length; ++i) {
 
-    cents.push(dollars[i] * 100);
-    //multiply the element by 100
-    //add this element onto 'cents' array
-}
+//     cents.push(dollars[i] * 100);
+//     //multiply the element by 100
+//     //add this element onto 'cents' array
+// }
 
-//console log cents
+// //console log cents
 
-console.log(cents);
+// console.log(cents);
+
+
+/**
+ * OBJECTS
+ * 
+ * What are objects in javascript?
+ * used to store multiple properties in one variable
+ */
+
+// let userFirstName = 'Hector'
+// let userLastName = 'Palacios'
+// let userDiscordId = 'paquito81'
+// let userSubscriptionStatus ='VIP'
+
+// let user = {
+//     username: 'Hector',
+//     email: 'paquito1981@outlook.com',
+//     subscriptionStatus: 'VIP',
+//     discordId: 'paquito81',
+//     lessonsCompleted: [0,1]
+// }
+
+// console.log(user.username[0]);
+
+// console.log(user.subscriptionStatus);
+
+// console.log(user.lessonsCompleted.map((elem) => elem * 2));
+
+// console.log(user.email);
+// console.log(users[0].lessonsCompleted.map(elem => elem * 2))
+
+// let users = [{
+//     username: 'Hector',
+//     email: 'paquito1981@outlook.com',
+//     password:'test123',
+//     subscriptionStatus: 'VIP',
+//     discordId: 'paquito81',
+//     lessonsCompleted: [0,1]
+// }, 
+// {
+//     username: 'jose',
+//     email: 'josesito1981@outlook.com',
+//     password: 'jose123',
+//     subscriptionStatus: 'VIP',
+//     discordId: 'josesito81',
+//     lessonsCompleted: [0, 1, 2, 3]
+// },
+// {
+//     username: 'marco',
+//     email: 'marco1981@outlook.com',
+//     password: 'marco123',
+//     subscriptionStatus: 'VIP',
+//     discordId: 'marco81',
+//     lessonsCompleted: [0, 1, 2, 3]
+// },
+// ];
+
+// function login(email, password) {
+//     for (let i = 0; i < users.length; ++i)
+//     if (users[i].email === email) {
+//         console.log(users[i]);
+//         if (users[i].password === password) {
+//             console.log('log the user in - the details are correct')
+//         }
+//         else {
+//             console.log('password is incorrect - try again')
+//         }
+//         return;
+//     }
+// }
+
+// login('esenosoyyo1981@outlook.com', 'jose123');
+
+
+
+// /**
+//  * Create a register function that accepts:
+//  * -username
+//  * -email
+//  * -password
+//  * -subscriptionStatus
+//  * -discordId
+//  * -lessonsCompleted
+//  * 
+//  * Inside your register function:
+//  * 1. Create an object
+//  * 2. Push this user object onto the 'users' array
+//  */
+
+// // function register(
+// //     name,
+// //     email,
+// //     password,
+// //     subscriptionStatus,
+// //     discordId,
+// //     lessonsCompleted
+// // ) {
+// function register(user) {
+//     users.push(user);
+// }
+// //    {
+// //     let user = {
+// //         username: name,
+// //         email: email,
+// //         password: password,
+// //         subscriptionStatus:subscriptionStatus,
+// //         lessonsCompleted: lessonsCompleted
+// //     }
+// //     users.push(user);
+// // }
+
+// register({
+//     username:'Hector',
+//     email: 'paquito1981@outlook.com',
+//     password: 'test123',
+//     subscriptionStatus: 'VIP', 
+//     discordId: 'paquito81', 
+//     lessonsCompleted: [0, 1]
+// });
+
+// console.log(users)
+
 
 // console.log('Hello World');
 // function hoursIntoSeconds(hour) {
@@ -509,6 +631,7 @@ console.log(cents);
     // else {
     //     return false;
     // }
+
     //2. second method
     // if (num1 + num2 > 100) {
     //     return true;
