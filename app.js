@@ -590,6 +590,37 @@ convertCelciusToFahrenheit(30) -> 86
 // console.log(users)
 
 
+
+/**
+ * DOM - DOCUMENT OBJECT MODEL
+ * 
+ * What is DOM?
+ * 
+ * The DOM allows you to access and change the styling and content of elements on your website
+ * 
+ */
+
+//First way of accessing an element
+// console.log(document.querySelector('#title'));
+
+//Second way of accessing an element
+
+// console.log(document.getElementById('title'))
+
+//Change the HTML
+// document.querySelector('.title').innerHTML += 'Frontend Simplified'
+// //Change the CSS
+// document.querySelector(".title").style.fontSize = '10px'
+
+// function changeTitleToRed() {
+//      document.querySelector(".title").style.color = 'red'
+    // console.log('clicked');
+// }
+
+function toggleDarkMode() {
+    document.querySelector('body').classList.toggle("dark-theme")
+}
+
 // console.log('Hello World');
 // function hoursIntoSeconds(hour) {
 //     return seconds = hour * 60 * 60; 
